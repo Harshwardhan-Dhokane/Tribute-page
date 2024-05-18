@@ -1,0 +1,32 @@
+
+figure{
+    text-align: center;
+   
+}
+
+img{
+    border: 2px solid pink;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+nav{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+h2{
+    color: yellow;
+}
+
+h1{
+    color: greenyellow;
+}

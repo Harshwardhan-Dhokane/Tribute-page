@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- adding favicon  -->
+    <!-- here rel is a relation between the image and the code 
+    type is the type of the image 
+    href is the link of image or the path -->
+    
+    <link rel="icon" type="image" href="linus torvalds.jpeg">
+
+    <!-- for making the sroll smooth we are doing this with the help of style tag -->
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        aside{
+            /* size of aside block */
+            width: 30%;
+            /* side of aside block on which side does it should be present */
+            float: right;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Linus Torvalds</h1>
+        <p>The creator of Linux</p>
+    </header>
+    
+    <nav>
+        <!-- creating the hyperlink for bookmark -->
+        <a href="#res">Go to resources</a>
+        <br>
+        <a href="#bio">Go to the biography</a>
+        <br>
+        <a href="#ach">Go to the achivments</a>
+    </nav>
+
+    
+
+    <figure>
+        <img src="linus torvalds.jpeg" alt="image" >
+        <figcaption>Photograph of Linus Torvalds</figcaption>
+    </figure>
+    
+
+    <section>
+        <h2 id="bio">Biography</h2>
+        <p>Torvalds is married to Tove Torvalds (née Monni), a six-time Finnish national karate champion, whom he met in late 1993. He was running introductory computer laboratory exercises for students and instructed the course attendees to send him an e-mail as a test, to which Tove responded with an e-mail asking for a date. They were later married and have three daughters, two of whom were born in the United States.The Linux kernel's reboot system call accepts their dates of birth (written in hexadecimal) as magic values.</p>
+
+    </section>
+
+    <!-- <aside>
+        <p>Torvalds is married to Tove Torvalds (née Monni), a six-time Finnish national karate champion, whom he met in late 1993. He was running introductory computer laboratory exercises for students and instructed the course attendees to send him an e-mail as a test, to which Tove responded with an e-mail asking for a date. They were later married and have three daughters, two of whom were born in the United States.The Linux kernel's reboot system call accepts their dates of birth (written in hexadecimal) as magic values.</p>
+    </aside> -->
+   
+    <section>
+        <h2 id="ach">Achivments</h2>
+        <ul>
+            <li><b>2018 - </b>IEEE Masaru Ibuka Consumer Electronics Award</li>
+            <li><b>2014 - </b>IEEE Computer Pioneer Awar</li>
+            <li><b>2012 - </b>Internet Hall of Fame</li>
+            <li><b>2012 - </b>Millennium Technology Prize</li>
+            <li><b>2010 - </b>C&C Prize</li>
+            <li><b>2008 - </b>Hall of Fellows</li>
+            <li><b>2005 - </b>Vollum Award</li>
+            <li><b>2003 - </b>Linus (Moon)</li>
+            <li><b>2001 - </b>Takeda Award </li>
+            <li><b>2000 - </b>Lovelace Medal</li>
+            <li><b>1997 - </b>Academic Honors</li>
+            <li><b>1996 - </b>9793 Torvalds (Asteroid)</li>
+        </ul>
+
+        <blockquote>
+            <p>"One of the most influenced people in the world."</p>
+            <i>-- Time magzine <a href="https://content.time.com/time/specials/packages/article/0,28804,1970858_1970909_1971691,00.html" target="_blank">The Famous people</a></i>
+        </blockquote>
+        </section>
+    
+
+    <section>
+        <!-- if we want create a bookmar to the resources then first we assigh a id to the resources and then add its hypperlink at the top -->
+        <h2 id="res">Resourses</h2>
+        <p>Learn more about Linus Torvalds and its work</p>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Linus_Torvalds#References" target="_blank">Wikipedia page on Linus Torvalds</a></li>
+
+            <li><a href="https://www.linkedin.com/in/linustorvalds" target="_blank">Linkedin Account of Linus Trovalds</a></li>
+        
+            <li><a href="https://www.internethalloffame.org/inductee/linus-torvalds/" target="_blank">Biography of Linus Torvalds</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>This is a footer.</p>
+    </footer>
+    
+
+</body>
+</html>
